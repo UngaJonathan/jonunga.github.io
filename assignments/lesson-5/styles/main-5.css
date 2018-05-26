@@ -1,0 +1,105 @@
+* { box-sizing: border-box;}
+
+body {
+  font-size: 16px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  margin: 5px;
+  padding: auto;
+}
+
+header, nav, main, footer {
+  max-width: 599px;
+  margin: 0 auto;
+}
+
+/* header */
+header .logo {
+    float: left;
+    width: 40%;
+}
+
+header h1 { 
+    float: right;
+    width: 48%;
+    margin-top: 2em;
+    text-align: center;
+    color: #2592ff;
+}
+
+header .subheading {
+    float: right;
+    width: 50%;
+    margin-bottom: 2em;
+    padding: 10px;
+    text-align: center;
+    background-color: #dddff1;
+}
+
+header .city {
+    clear: both;
+    max-width: 100%;
+}
+
+/* Nav */
+nav {
+    display: none;
+}
+nav button {}
+nav ul {}
+nav ul li {}
+nav ul li a {
+    text-decoration: none;
+}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+/* Main */
+main {}
+main h2 {
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 15px;
+    background-color: #2592ff;
+}
+
+.weather-summary {
+    text-align: center;
+    margin: 10px auto;
+    border: 5px solid #dddff1;
+}
+
+section.forecast {
+    display: none;
+}
+
+article h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #dddff1;
+}
+
+.storm {
+    float: right;
+    margin: 3px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { }
+
+/* Footer */
+section.contact {
+    text-align: center;
+    padding: 10px;
+    background-color: #2592ff;
+}
+
+section.footer-bar {
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    background-color: #dddff1;
+}
