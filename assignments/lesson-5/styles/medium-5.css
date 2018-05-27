@@ -30,13 +30,13 @@
     /* Main */
     .city {
         float: left;
-        width: 55%;
+        width: 57%;
         margin: 0 auto;
     }
     
     main h2,section.weather-summary {
         float: right;
-        width: 44%;
+        width: 42%;
         max-height: inherit;
         margin: 0 auto;
     }
@@ -49,13 +49,15 @@
     }
     
     tr th,td {
+        clear: left;
         margin: 0 auto;
         border: 3px solid #2592ff;
     }
     
-    table {
-        width: 35%;
+    section table {
+        max-width: 30%;
     }
+    
     main article {
         clear: both;
     }
