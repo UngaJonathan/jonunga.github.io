@@ -17,7 +17,7 @@ header .logo {
     width: 40%;
 }
 
-header h1 { 
+header .title { 
     float: right;
     width: 48%;
     margin-top: 2em;
@@ -26,26 +26,28 @@ header h1 {
 }
 
 header .subheading {
-    float: right;
-    width: 50%;
     margin-bottom: 2em;
     padding: 10px;
     text-align: center;
     background-color: #dddff1;
+
 }
 
-header .city {
+main .city {
     clear: both;
     max-width: 100%;
 }
 
 /* Nav */
-nav {
+nav {}
+nav button {
+    position: fixed;
+    right: 0;
+}
+nav ul {}
+nav ul li {
     display: none;
 }
-nav button {}
-nav ul {}
-nav ul li {}
 nav ul li a {
     text-decoration: none;
 }
