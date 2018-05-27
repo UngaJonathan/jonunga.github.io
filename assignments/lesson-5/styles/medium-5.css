@@ -6,7 +6,7 @@
     }
     
     /* Header */
-    nav {
+    nav ul li {
         display: contents;
     }
     
@@ -30,13 +30,13 @@
     /* Main */
     .city {
         float: left;
-        width: 57%;
+        width: 59%;
         margin: 0 auto;
     }
     
     main h2,section.weather-summary {
         float: right;
-        width: 42%;
+        width: 40%;
         max-height: inherit;
         margin: 0 auto;
     }
@@ -52,10 +52,6 @@
         clear: left;
         margin: 0 auto;
         border: 3px solid #2592ff;
-    }
-    
-    section table {
-        max-width: 30%;
     }
     
     main article {
