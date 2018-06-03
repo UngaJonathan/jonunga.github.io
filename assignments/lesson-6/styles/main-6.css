@@ -1,0 +1,139 @@
+* { box-sizing: border-box;}
+
+body {
+  font-size: 16px;
+  font-family: 'Gudea', sans-serif;
+  margin: 5px;
+}
+
+header, nav, main, footer {
+  max-width: 599px;
+  margin: 0 auto;
+}
+
+/* header */
+header .logo {
+    float: left;
+    width: 40%;
+}
+
+header .title { 
+    float: right;
+    width: 48%;
+    margin-top: 2em;
+    text-align: center;
+    color: #2592ff;
+}
+
+header .subheading {
+    margin-bottom: 2em;
+    padding: 10px;
+    text-align: center;
+    background-color: #dddff1;
+
+}
+
+main .city {
+    clear: both;
+    max-width: 100%;
+}
+
+/* Nav */
+nav {
+	clear: both;
+	background-color: #dddff1;
+}
+nav button {
+	font-size: 29px;
+	border: none;
+	background-color: #dddff1;
+	color: #2592ff;
+	
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li {}
+nav ul li a {
+	display: block;
+	padding: .8rem 2%;
+	text-decoration: none;
+	color: #2592ff;
+	border-top: 1px solid rgba(0,0,0,0.4);
+}
+nav ul li.active a {
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+}
+nav ul li a:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+nav ul.hide {
+	display: none;
+}
+
+/* Main */
+main {}
+main h2 {
+    text-align: center;
+    margin: 20px auto 0;
+    padding: 15px;
+    background-color: #2592ff;
+}
+
+.weather-summary {
+    text-align: center;
+    margin: 10px auto;
+    border: 5px solid #dddff1;
+}
+
+section.forecast {
+    display: none;
+}
+
+article h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #dddff1;
+}
+
+.storm {
+    float: right;
+    margin: 3px;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+main figure.city { 
+    margin: 0 0 .2rem; 
+    width: 100%; 
+}
+main figure img {
+    width: 100%;
+}
+
+/* Footer */
+section.contact {
+    text-align: center;
+    padding: 10px;
+    background-color: #2592ff;
+}
+
+section.footer-bar {
+    text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    background-color: #dddff1;
+}
+
+/* Clearfix: force an element not to collapse */
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}

@@ -1,0 +1,46 @@
+@media only screen and (min-width:64em) {
+    
+    header, nav, main, footer {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+	
+	header .title {
+		margin-top: 6rem;
+	}
+	
+	nav {
+		margin-bottom: .8rem;
+	}
+	
+	nav ul li a {
+		padding: .6rem 1rem;
+	}
+	
+	#weathercond {
+		width: 100%;
+	}
+    
+    main h2,section.weather-summary {
+        float: none;
+        width: 100%;
+    }
+    
+    main section.forecast {
+        float: none;
+        width: 100%;
+    }
+    
+	section h3 {
+		margin-top: 1rem;
+	}
+	
+    table {
+        width: 100%;
+    }
+	
+	th,td {
+		padding: 1rem;
+	}
+  
+  }

@@ -1,0 +1,76 @@
+@media only screen and (min-width:38.75em) {
+
+    header, nav, main, footer {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+	
+	/* Header */
+	header .title {
+		margin-top: 2.5rem;
+	}
+    
+    /* Nav */
+	nav button {
+		display: none;
+	}
+	
+	nav ul.hide {
+		display: block;
+	}
+	
+	nav ul {
+		margin-left: 2%;
+	}
+	
+	nav ul li {
+		float: left;
+	}
+
+	nav ul li a {
+		border: none;
+		border-right: 2px solid rgba(0,0,0,0.4);
+		padding: 1rem 1rem;
+	}
+		
+
+
+    /* Main */
+   
+	
+	#weathercond {
+		float: right;
+		clear: both;
+		width: 27%;
+	}
+    
+    section.weather-summary {
+      	clear: right;
+		float: right;
+        width: 27%;
+        max-height: inherit;
+        margin: 0 auto;
+    }
+    
+    section.forecast {
+        display: contents;
+        float: left;
+		clear: both;
+        text-align: center;
+    }
+	
+	section h3 {
+		margin-top: 9rem;
+	}
+    
+    tr th,td {
+        margin: 0 auto;
+		padding: .8rem 0 .8rem 0;
+        border: 3px solid #2592ff;
+    }
+    
+    main article {
+        clear: both;
+    }
+
+  }
