@@ -1,0 +1,158 @@
+* { box-sizing: border-box;}
+
+body {
+  font-size: 16px;
+  font-family: 'Gudea', sans-serif;
+}
+
+header, nav, main, footer {
+  	display: flex;
+	flex-flow: column;
+	align-content: center;
+	justify-content: center;
+	padding: 10px;
+	max-width: 599px;
+	margin: 0 auto;
+}
+
+/* header */
+.heading {
+    display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+}
+
+.logo {
+	width: 45%;
+}
+
+.title { 
+  	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+    color: #2592ff;
+}
+
+.subheading {
+    padding: 10px;
+    background-color: #dddff1;
+
+}
+
+main .city {
+    
+    max-width: 100%;
+}
+
+/* Nav */
+nav {
+	padding: 5px;
+	background-color: #dddff1;
+}
+nav button {
+	font-size: 29px;
+	text-align: left;
+	border: none;
+	background-color: #dddff1;
+	color: #2592ff;
+	
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav ul li {}
+nav ul li a {
+	display: flex;
+	padding: .8rem 2%;
+	text-decoration: none;
+	color: #2592ff;
+	border-top: 1px solid rgba(0,0,0,0.4);
+}
+nav ul li.active a {
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+}
+nav ul li a:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+nav ul.hide {
+	display: none;
+}
+
+/* Main */
+main {}
+main h2 {
+    justify-content: center;
+	text-align: center;
+	width: 100%;
+    margin: 20px auto 0;
+    padding: 15px;
+    background-color: #2592ff;
+}
+
+.weather-summary {
+    text-align: center;
+	width: 100%;
+    margin: 10px auto;
+    border: 5px solid #dddff1;
+}
+
+.sunny {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+}
+
+section.forecast {
+    display: none;
+}
+
+article h3 {
+    text-align: center;
+    padding: 10px;
+    background-color: #dddff1;
+}
+
+.townarticle {
+	display: flex;
+	flex-flow: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.storm {
+	max-width: 200px;
+    margin-right: 10px;
+}
+
+.clearfix {}
+
+main figure.city { 
+    margin: 0 0 .2rem; 
+    width: 100%; 
+}
+main figure img {
+    width: 100%;
+}
+
+/* Footer */
+section.contact {
+	text-align: center;
+    padding: 10px;
+    background-color: #2592ff;
+}
+
+section.footer-bar {
+	text-align: center;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    background-color: #dddff1;
+}
