@@ -87,6 +87,15 @@ nav ul.hide {
 
 /* Main */
 main {}
+
+.grid {
+	display: grid;
+}
+
+.grid p {
+	margin-top: auto;
+}
+
 main h2 {
     justify-content: center;
 	text-align: center;

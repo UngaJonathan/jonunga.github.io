@@ -42,6 +42,9 @@
 	}
 
     /* Main */
+	.grid {
+		grid-template-columns: 1fr 1fr;
+	}
    
 	#weathercond {
 		margin-top: auto;

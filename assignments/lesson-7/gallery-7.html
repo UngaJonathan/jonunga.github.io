@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-us">
+ <head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>YourDailyWeather | Gallery</title>
+     <meta name="description" content="Your Daily Weather Gallery">
+     <link rel="stylesheet" href="styles/normalize.css">
+     <link rel="stylesheet" href="styles/main-7.css">
+     <link rel="stylesheet" href="styles/medium-7.css">
+     <link rel="stylesheet" href="styles/large-7.css">
+     <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
+	 <script src="scripts/hamburger.js"></script>
+ </head>
+ <body>
+    <header class="heading">
+        <img class="logo" src="images/Optimized-Weather%20Site%20Logo.png" alt="Your Daily Weather">
+        <div class="title">
+            <h1>Your Daily Weather</h1>
+            <div class="subheading">Current. Accurate. Forecast.</div>
+        </div>
+	 </header>	 
+     <nav class="clearfix">
+          <button class="hamburger" onclick="toggleMenu()">&#9776;</button> 
+            <ul id="navmenu" class="hide">
+                <li><a href="#">Home </a></li>
+                <li><a href="franklin-7.html"> Franklin </a></li>
+                <li><a href="#"> Greenville </a></li>
+                <li><a href="#"> Springfield </a></li>
+                <li><a href="#"> Storm Center </a></li>
+                <li class="active"><a id="navend" href="#"> Gallery</a></li>
+            </ul>
+     </nav>
+     <main>
+		 <div class="grid">
+		 	<figure>
+				<a href="#"><img src="images/Optimized-action-bicycle-Large.jpg" alt="City Rain" sizes="100vw"
+					 srcset="images/Optimized-action-bicycle-Small.jpg 620w,
+							 images/Optimized-action-bicycle-Medium.jpg 1025w,
+							 images/Optimized-action-bicycle-Large.jpg 1400w"></a>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+			</figure>
+			<figure>
+				<a href="#"><img src="images/Optimized-autumn-background-beautiful-Large.jpg" alt="Autumn Sky" sizes="100vw" 
+					 srcset="images/Optimized-autumn-background-beautiful-Small.jpg 620w,
+							 images/Optimized-autumn-background-beautiful-Medium.jpg 1025w,
+							 images/Optimized-autumn-background-beautiful-Large.jpg 1400w"></a>
+					<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.</p>
+			</figure>
+			<figure>
+				<a href="#"><img src="images/Optimized-autumn-leaves-blue-sky-bright-Large.jpg" alt="Fall Leaves" sizes="100vw"
+					 srcset="images/Optimized-autumn-leaves-blue-sky-bright-Small.jpg 620w,
+							 images/Optimized-autumn-leaves-blue-sky-bright-Medium.jpg 1025w,
+							 images/Optimized-autumn-leaves-blue-sky-bright-Large.jpg 1400w"></a>
+					<p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+			</figure>
+			<figure>
+				<a href="#"><img src="images/Optimized-backlit-clouds-dawn-Large.jpg" alt="Rainbow Dawn" sizes="100vw"
+					 srcset="images/Optimized-backlit-clouds-dawn-Small.jpg 620w,
+							 images/Optimized-backlit-clouds-dawn-Medium.jpg 1025w,
+							 images/Optimized-backlit-clouds-dawn-Large.jpg 1400w"></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+			</figure>
+			<figure>
+				<a href="#"><img src="images/Optimized-blue-sky-bright-clouds-Large.jpg" alt="Clear Blue Sky" sizes="100vw"
+					 srcset="images/Optimized-blue-sky-bright-clouds-Small.jpg 620w,
+							 images/Optimized-blue-sky-bright-clouds-Medium.jpg 1025w,
+							 images/Optimized-blue-sky-bright-clouds-Large.jpg 1400w"></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+			</figure>
+			<figure>
+				<a href="#"><img src="images/Optimized-dbark-evening-lightning-Large.jpg" alt="Night Lightning" sizes="100vw"
+					 srcset="images/Optimized-dbark-evening-lightning-Small.jpg 620w,
+							 images/Optimized-dbark-evening-lightning-Medium.jpg 1025w,
+							 images/Optimized-dbark-evening-lightning-Large.jpg 1400w"></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+			</figure>
+		 </div>
+     </main>
+     <footer>
+         <section class="contact">
+             Contact information placeholder<br>
+             999.999.9999<br>
+             123 Main St. Anytown, US 99999<br>
+             Google Map
+         </section>
+         <section class="footer-bar">&copy;2018 | All Rights Reserved | Your Daily Weather | <span id="currentdate"><script src="scripts/currentdate.js"></script></span>
+         </section>
+     </footer>
+ </body>
+</html>
