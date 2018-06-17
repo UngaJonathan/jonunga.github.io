@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+ <head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>YourDailyWeather | StormCenter</title>
+     <meta name="description" content="Your Daily Weather Storm Center">
+     <link rel="stylesheet" href="styles/normalize.css">
+     <link rel="stylesheet" href="styles/main-8.css">
+     <link rel="stylesheet" href="styles/medium-8.css">
+     <link rel="stylesheet" href="styles/large-8.css">
+     <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
+	 <script src="scripts/hamburger.js"></script>
+ </head>
+ <body>
+    <header class="heading">
+        <img class="logo" src="images/Optimized-Weather%20Site%20Logo.png" alt="Your Daily Weather">
+        <div class="title">
+            <h1>Your Daily Weather</h1>
+            <div class="subheading">Current. Accurate. Forecast.</div>
+        </div>
+	 </header>	 
+     <nav class="clearfix">
+          <button class="hamburger" onclick="toggleMenu()">&#9776;</button> 
+            <ul id="navmenu" class="hide">
+                <li><a href="#">Home </a></li>
+                <li><a href="franklin-8.html"> Franklin </a></li>
+                <li><a href="#"> Greenville </a></li>
+                <li><a href="#"> Springfield </a></li>
+                <li class="active"><a href="#"> Storm Center </a></li>
+                <li><a id="navend" href="gallery-8.html"> Gallery</a></li>
+            </ul>
+     </nav>
+     <main>
+		 <form method="get" action="thanks.html">
+		 	<fieldset>
+				<legend>Basic Information</legend>
+				<label class="top">Full Name* <input type="text" name="fname" pattern="[A-Za-z][A-Za-z ]{4,}" title="Full Name" required></label>
+				<label class="top">Email <input type="email" name="email" placeholder="johndoe@email.com"></label>
+				<label class="top">Phone Number* <input type="tel" name="phone" placeholder="1234567890" required></label>
+				<label class="top">Zip Code* <input type="number" name="zcode" required></label>
+			</fieldset>
+			<fieldset>
+				<legend>Storm Report</legend>
+				<label class="nexto">Storm Date <input type="date" name="date"></label>
+				<label class="nexto">Storm Type <input list="storm" name="storm">
+					<datalist id="storm">
+				 		<option value="Flash Flood">
+						<option value="Hail">
+						<option value="Hurricane">
+						<option value="Thunderstorm">
+						<option value="Tornado">
+					</datalist>
+				</label>
+				<label class="nexto">Severity 
+					<div class="slide">
+						<input type="range" min="1" max="10" value="5" class="slider" id="severity">
+						<p><span id="strength"><script src="scripts/severityrange.js"></script></span></p>
+					</div>
+				</label>
+				<label class="nexto">Region 
+					<select name="region">
+						<option value="">Select Region ... &#9662;</option>
+						<option value="franklin">Franklin</option>
+						<option value="greenville">Greenville</option>
+						<option value="springfield">Springfield</option>
+					</select>
+				</label>
+				<div>User In-Danger</div>
+				<label class="radio"><input type="radio" name="danger" value="yes"> Yes</label>
+				<label class="radio"><input type="radio" name="danger" value="maybe"> Maybe</label>
+				<label class="radio"><input type="radio" name="danger" value="no"> No</label>
+				<div>Additional Comments </div><textarea name="comments" rows="10" cols="30"></textarea>
+			</fieldset>
+			<input type="submit" class="submitbttn" value="Report Storm">
+		 </form>
+     </main>
+     <footer>
+         <section class="contact">
+             Contact information placeholder<br>
+             999.999.9999<br>
+             123 Main St. Anytown, US 99999<br>
+             Google Map
+         </section>
+         <section class="footer-bar">&copy;2018 | All Rights Reserved | Your Daily Weather | <span id="currentdate"><script src="scripts/currentdate.js"></script></span>
+         </section>
+     </footer>
+ </body>
+</html>

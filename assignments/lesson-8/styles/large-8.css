@@ -1,0 +1,67 @@
+@media only screen and (min-width:64em) {
+    
+    header, nav, main, footer {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+	
+	.title {
+		width: 45%;
+	}
+	
+	nav {}
+	
+	nav ul li a {
+		padding: .6rem 1rem;
+	}
+	
+	/*Main*/
+	.grid {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	
+	
+	.grid figure a img:hover {
+		box-shadow: 5px 5px 10px gray;
+	}
+	
+	#weathercond {
+		width: 100%;
+	}
+    
+    main h2,section.weather-summary {
+        
+        width: 100%;
+    }
+    
+    main section.forecast {
+        
+        width: 100%;
+    }
+    
+	section h3 {
+		margin-top: 1rem;
+	}
+	
+    table {
+        width: 100%;
+    }
+	
+	th,td {
+		padding: 1rem;
+	}
+	
+	.townarticle {
+		flex-flow: row;
+	}
+	
+	/* Form */
+	form label.top input,form label.top select,form label.nexto input,form label.nexto select {
+		padding: .5rem;
+	}
+	
+	form label.radio {
+		padding: .25rem;
+		font-size: 20px;
+	}
+  }
