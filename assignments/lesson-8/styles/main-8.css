@@ -183,14 +183,14 @@ form legend {
 	padding: 0 .25rem;
 }
 
-form label.top,form div,.nexto {
+form label.top,form div,.nexto,.slide,input.slider {
 	display: block;
 	padding-top: 1.5rem;
 	font-size: 14px;
 	color: #2592ff;
 }
 
-form label.top input,form label.top select,form label.nexto input,form label.nexto select {
+form label.top input,form label.top select,form label.nexto input,form label.nexto select,input.slider {
 	-webkit-appearance: none;
 	display: block;
 	font-size: 1rem;
@@ -219,14 +219,15 @@ form label.radio {
 	font-size: 24px;
 }
 
-form div.slide input.slider,p span#strength {
+form label.slide input.slider,span#strength {
 	font-size: 24px;
 	background-color: white;
 	padding: .25rem 2rem;
 	border-radius: 10px;
+	margin-bottom: 1rem;
 }
 
-form div.slide input#severity {
+form label.slide input#severity {
 	-webkit-appearance: none;
 	padding-left: .5rem;
 	padding-right: .5rem;
