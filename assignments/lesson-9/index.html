@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en-us">
+ <head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>YourDailyWeather | Home</title>
+     <meta name="description" content="Your Daily Weather Home Page">
+     <link rel="stylesheet" href="styles/normalize.css">
+     <link rel="stylesheet" href="styles/main-9.css">
+     <link rel="stylesheet" href="styles/medium-9.css">
+     <link rel="stylesheet" href="styles/large-9.css">
+     <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
+	 <script src="scripts/hamburger.js"></script>
+ </head>
+ <body>
+    <header class="heading">
+        <img class="logo" src="images/Optimized-Weather%20Site%20Logo.png" alt="Your Daily Weather">
+        <div class="title">
+            <h1>Your Daily Weather</h1>
+            <div class="subheading">Current. Accurate. Forecast.</div>
+        </div>
+	 </header>	 
+     <nav class="clearfix">
+          <button class="hamburger" onclick="toggleMenu()">&#9776;</button> 
+            <ul id="navmenu" class="hide">
+                <li class="active"><a href="#">Home </a></li>
+                <li><a href="franklin-9.html"> Franklin </a></li>
+                <li><a href="#"> Greenville </a></li>
+                <li><a href="#"> Springfield </a></li>
+                <li><a href="stormcenter.html"> Storm Center </a></li>
+                <li><a id="navend" href="gallery-9.html"> Gallery</a></li>
+            </ul>
+     </nav>
+     <main>
+		 <section class="homeStory">
+		 	<h1>Weather Story</h1>
+			<figure>
+				<img src="images/Optimized-blue-clouds-color-Large.jpg" alt="Night Storm" size="100vw"
+					 srcset="images/Optimized-blue-clouds-color-Small.jpg 620w,
+							 images/Optimized-blue-clouds-color-Medium.jpg 1025w
+							 images/Optimized-blue-clouds-color-Large.jpg 1400w">
+			</figure>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+		 </section>
+		 <section class="homeTowns">
+		 	<ul>
+				<li>
+					<h3>Franklin</h3>
+					<p>Town Motto - "<span id="fmotto"></span>"</p>
+					<p>Founded: <span id="ffounded"></span></p>
+					<p>Population: <span id="fpop"></span></p>
+					<p>Annual Rainfall: <span id="frain"></span>"</p>
+					<img src="images/Optimized-blue-sky-bright-clouds-Large.jpg" alt="Clear Blue Sky" sizes="50vw"
+					 	 srcset="images/Optimized-blue-sky-bright-clouds-Small.jpg 620w,
+							     images/Optimized-blue-sky-bright-clouds-Medium.jpg 1025w,
+							     images/Optimized-blue-sky-bright-clouds-Large.jpg 1400w">
+				</li>
+				<li id="middle">
+					<h3>Greenville</h3>
+					<p>Town Motto - "<span id="gmotto"></span>"</p>
+					<p>Founded: <span id="gfounded"></span></p>
+					<p>Population: <span id="gpop"></span></p>
+					<p>Annual Rainfall: <span id="grain"></span>"</p>
+					<img src="images/Optimized-backlit-clouds-dawn-Large.jpg" alt="Rainbow Dawn" sizes="50vw"
+					 	 srcset="images/Optimized-backlit-clouds-dawn-Small.jpg 620w,
+							     images/Optimized-backlit-clouds-dawn-Medium.jpg 1025w,
+							     images/Optimized-backlit-clouds-dawn-Large.jpg 1400w">
+				</li>
+				<li>
+					<h3>Springfield</h3>
+					<p>Town Motto - "<span id="smotto"></span>"</p>
+					<p>Founded: <span id="sfounded"></span></p>
+					<p>Population: <span id="spop"></span></p>
+					<p>Annual Rainfall: <span id="srain"></span>"</p>
+					<img src="images/Optimized-autumn-background-beautiful-Large.jpg" alt="Autumn Sky" sizes="50vw" 
+					 	 srcset="images/Optimized-autumn-background-beautiful-Small.jpg 620w,
+							     images/Optimized-autumn-background-beautiful-Medium.jpg 1025w,
+							     images/Optimized-autumn-background-beautiful-Large.jpg 1400w">
+				</li>
+			</ul>
+		 </section>
+		  
+     </main>
+     <footer>
+         <section class="contact">
+             Contact information placeholder<br>
+             999.999.9999<br>
+             123 Main St. Anytown, US 99999<br>
+             Google Map
+         </section>
+         <section class="footer-bar">&copy;2018 | All Rights Reserved | Your Daily Weather | <span id="currentdate"><script src="scripts/currentdate.js"></script></span>
+         </section>
+     </footer>
+	 <script src="scripts/towndata.js"></script>
+ </body>
+</html>

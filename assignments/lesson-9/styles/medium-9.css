@@ -1,0 +1,115 @@
+@media only screen and (min-width:38.75em) {
+
+    header, nav, main, footer {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+	
+	/* Header */
+	.logo {
+		margin-right: 5rem;
+	}
+    
+    /* Nav */
+	nav button {
+		display: none;
+	}
+	
+	nav {}
+	
+	nav ul.hide {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	nav ul {
+		margin-left: 2%;
+	}
+	
+	nav ul li {}
+
+	nav ul li a {
+		border: none;
+		border-right: 2px solid rgba(0,0,0,0.4);
+		padding: 2rem 1rem;
+	}
+	
+	#navend {
+		border-right: none;
+	}
+
+    /* Main */
+	.grid {
+		grid-template-columns: 1fr 1fr;
+	}
+   
+	#weathercond {
+		margin-top: auto;
+	}
+    
+    .weather-summary {
+        margin: 0 auto;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+    }
+	
+	.sunny {
+		margin-right: 9rem;
+		font-size: 28px;
+	}
+	
+	.sun {
+		margin-top: 1rem;
+		width: 150px
+	}
+	
+	.condtions {
+		margin-left: 5rem;
+	}
+    
+    section.forecast {
+        display: contents;
+        text-align: center;
+    }
+	
+	h3 {}
+    
+    tr th,td {
+        margin: 0 auto;
+		padding: .8rem 0 .8rem 0;
+        border: 3px solid #2592ff;
+    }
+    
+    main article {}
+	
+	/* Home Page */
+	section.homeStory h1 {
+		background-color: #2592ff;
+		margin-bottom: 0;
+		padding: 2rem;
+		color: white;
+		text-align: center;
+		width: 100%;
+	}
+
+	.homeTowns ul {
+		display: flex;
+		border: none;
+	}
+
+	.homeTowns ul li {
+		width: 33%;
+	}
+
+	.homeTowns ul li img {
+		width: 100%
+	}
+
+	#middle {
+		margin: auto 1.5rem auto 1.5rem;
+	}
+
+  }
