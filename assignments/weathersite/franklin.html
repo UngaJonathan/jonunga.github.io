@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-us">
+ <head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>YourDailyWeather | Franklin</title>
+     <meta name="description" content="Your Daily Weather for Franklin">
+     <link rel="stylesheet" href="styles/normalize.css">
+     <link rel="stylesheet" href="styles/main-9.css">
+     <link rel="stylesheet" href="styles/medium-9.css">
+     <link rel="stylesheet" href="styles/large-9.css">
+     <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
+	 <script src="scripts/hamburger.js"></script>
+ </head>
+ <body>
+    <header class="heading">
+        <img class="logo" src="images/Optimized-Weather%20Site%20Logo.png" alt="Your Daily Weather">
+        <div class="title">
+            <h1>Your Daily Weather</h1>
+            <div class="subheading">Current. Accurate. Forecast.</div>
+        </div>
+	 </header>	 
+     <nav class="clearfix">
+          <button class="hamburger" onclick="toggleMenu()">&#9776;</button> 
+            <ul id="navmenu" class="hide">
+                <li><a href="index.html">Home </a></li>
+                <li class="active"><a href="#"> Franklin </a></li>
+                <li><a href="#"> Greenville </a></li>
+                <li><a href="#"> Springfield </a></li>
+                <li><a href="stormcenter.html"> Storm Center </a></li>
+                <li><a id="navend" href="gallery.html"> Gallery</a></li>
+            </ul>
+     </nav>
+     <main> 
+         <figure class="city">
+             <img src="images/Optimized-franklin-original-Large.jpeg" alt="Franklin City" sizes="100vw"
+				  srcset="images/Optimized-franklin-original-Small.jpeg 620w,
+						  images/Optimized-franklin-original-Medium.jpeg 1025w,
+						  images/Optimized-franklin-original-Large.jpeg 1400w">
+         </figure>
+		 <h2 id="weathercond">Franklin Weather</h2>
+         	<section class="weather-summary">
+				<p class="sunny">Sunny
+                  <picture>
+                     <img class="sun" src="images/Optimized-Sunny%20img.png" alt="Sunny">
+                  </picture>
+				</p>	
+              <div class="conditions">
+				 <p>Current Temperature: <span id="curtemp"></span>&deg;F</p>
+                 <p>Description: <span id="descrip"></span></p>  
+                 <p>High / <span id="high"></span>&deg;F</p> 
+                 <p>Low / <span id="low"></span>&deg;F</p>  
+                 <p>Wind Speed: <span id="wspeed"></span> mph</p>  
+				 <p>Windchill: <span id="windchill"><script src="scripts/windchill.js"></script>&deg;F</span></p>
+			  </div>
+         	</section>
+         <section class="forecast">
+            <h3>Ten Day Forecast</h3>
+             <table>
+                 <thead>
+                     <tr>
+                         <th>Day 1</th>
+                         <th>Day 2</th>
+                         <th>Day 3</th>
+                         <th>Day 4</th>
+                         <th>Day 5</th>
+                         <th>Day 6</th>
+                         <th>Day 7</th>
+                         <th>Day 8</th>
+                         <th>Day 9</th>
+                         <th>Day 10</th>
+                     </tr>
+                 </thead>
+                 <tbody>  
+                     <tr>
+                         <td>89&deg;F</td>
+                         <td>87&deg;F</td>
+                         <td>78&deg;F</td>
+                         <td>75&deg;F</td>
+                         <td>72&deg;F</td>
+                         <td>72&deg;F</td>
+                         <td>79&deg;F</td>
+                         <td>83&deg;F</td>
+                         <td>85&deg;F</td>
+                         <td>89&deg;F</td>
+                     </tr>
+                 </tbody>
+             </table>
+         </section>
+         <article>
+             <h3>Franklin Breaks Record</h3>
+             <div class="townarticle">
+               <img class="storm" src="images/Optimized-lightning%20storm.jpeg" alt="lightning storm">
+               <p class="paragraph">
+                 anfo einta diaf dsoif aweklj daos. aoemnvoiasa sje, asdlkfjeoms atl. aoean  asdfjovnvnre eduzklei nfudnakfnf anfi. ajeofj nfoieijf ejfofn vndonf e eneionf en fnenf a dkfne nfofnenj nd naodf asdfjeo fald jeoifamn  fald. fjoem  a eja fj aweofj ajlat la. ajoe jaldfj afg. eoanf aocxlcad emdladf jaemcl alenmdasldkfco nvnnenien afnvoanf en enf e fnaonf anaefnf fnfllfn fje eedf. f eoajf flkasdejfjaf jfalj jfco. jvlele eoa eofa co a dfogcjco co vn erone eoa eof eaon ado eo. neoaoj df ajod faf dsoaosdfnmcv c eoaje dao d ad. jafeo ad eo d asdo. aeo ald vja e ema. aofe eadf asdf oc cn anc c cl enlkj dfla ldlkj c ll dkfa djco e colje dlc oaskdnm c doasenndao dndoand d aoencxd dlsd. e donfnien dnaiencxd dndia didl.
+               </p>
+             </div>     
+         </article>		  
+     </main>
+     <footer>
+         <section class="contact">
+             Contact information placeholder<br>
+             999.999.9999<br>
+             123 Main St. Anytown, US 99999<br>
+             Weather Data credited to <a href="https://openweathermap.org/">OpenWeatherMap.org</a>
+         </section>
+         <section class="footer-bar">&copy;2018 | All Rights Reserved | Your Daily Weather | <span id="currentdate"><script src="scripts/currentdate.js"></script></span>
+         </section>
+     </footer>
+	 <script src="scripts/weather.js"></script>
+ </body>
+</html>
