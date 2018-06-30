@@ -16,6 +16,10 @@
 	}
 	
 	/*Main*/
+	.storm {
+		max-width: 45%;
+	}
+	
 	.grid {
 		grid-template-columns: 1fr 1fr 1fr;
 	}
