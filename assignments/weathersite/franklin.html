@@ -13,7 +13,12 @@
 	 <script src="scripts/hamburger.js"></script>
  </head>
  <body>
-    <header includefile="header.html">
+    <header class="heading" includefile="header.html">
+		<img class="logo" src="images/Optimized-Weather%20Site%20Logo.png" alt="Your Daily Weather">
+		<div class="title">
+			<h1>Your Daily Weather</h1>
+			<div class="subheading">Current. Accurate. Forecast.</div>
+		</div>
     </header>	 
     <nav class="clearfix">
           <button class="hamburger" onclick="toggleMenu()">&#9776;</button> 
@@ -93,6 +98,14 @@
          </article>		  
      </main>
      <footer includefile="footer.html">
+		 <section class="contact">
+			Contact information placeholder<br>
+			999.999.9999<br>	
+			123 Main St. Anytown, US 99999<br>
+			Weather Data credited to <a href="https://openweathermap.org/">OpenWeatherMap.org</a>
+		 </section>
+		 <section class="footer-bar">&copy;2018 | All Rights Reserved | Your Daily Weather | <span id="currentdate"><script src="scripts/currentdate.js"></script></span>
+		 </section>
      </footer>
 	 <script src="scripts/weather.js"></script>
 	 <script src="scripts/include.js"></script>

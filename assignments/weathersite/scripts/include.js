@@ -14,7 +14,7 @@ function include() {
 					include();
 				}
 			}
-			xhttp.open('GET', 'includes/' + file, true);
+			xhttp.open('GET', '/includes/' + file, true);
 			xhttp.send();
 			return;
 		}
