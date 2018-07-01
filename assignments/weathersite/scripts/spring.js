@@ -17,3 +17,4 @@ weatherRequest1.onload = function() {
 		document.getElementById("low1").innerHTML = low1;
 		var wspeed1 = springData.wind.speed;
 		document.getElementById("wspeed1").innerHTML = wspeed1;
+}
