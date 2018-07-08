@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>KeyCodes</title>
+	<link rel="stylesheet" href="css/Codes.css">
+</head>
+<body>
+	<div class="container">
+	<h5>Keydown keyCode</h5>
+		<h1 class="keyCode">-</h1>
+	</div>
+
+	<div class="container2">
+	<h5>Keypress charCode</h5>
+		<h1 class="charCode">-</h1>
+	</div>
+<script	src="https://code.jquery.com/jquery-3.3.1.js"
+  		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  		crossorigin="anonymous"></script>
+<script>
+	$(function(){
+		
+		$(document).on({
+			keydown: function(evt){
+				$('.keyCode').html(evt.keyCode);
+			},
+			keypress: function(evt){
+				$('.charCode').html(evt.charCode);
+			}
+		})
+		
+	})
+</script>
+</body>
+</html>
