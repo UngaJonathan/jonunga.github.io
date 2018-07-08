@@ -278,4 +278,11 @@ body {
 	color:inherit;
 }
 
+#links {
+	position: absolute;
+	right: 10px;
+	font-size: 16px;
+	padding: 5px 0 5px 0;
+}
+
 
