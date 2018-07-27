@@ -1,0 +1,64 @@
+@media only screen and (min-width:38.75em) {
+	
+	body {
+		max-width: 800px;
+		margin: auto;
+	}
+	
+	/* Header */
+	.title {
+		border: 1px solid #007a16;
+		border-top-right-radius: 15px;
+		border-top-left-radius: 15px;
+	}
+	
+	/* Nav */
+	nav {
+		border-bottom-left-radius: 15px;
+		border-bottom-right-radius: 15px;
+	}
+	
+	nav button {
+		display: none;
+	}
+	
+	nav ul {
+		margin-left: 2%;
+	}
+	
+	nav ul.hide {
+		display: flex;
+		font-size: 16px;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	nav ul li a {
+		border: none;
+		border-right: 3px solid #ff8b00;
+		padding: 2rem 1rem;
+	}
+	
+	#navend {
+		border-right: none;
+	}
+	
+	/* Main */
+	.homegrid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	
+	.sales {
+		grid-template-columns: 1fr 1fr;
+	}
+	#contact {
+		max-width: 65%;
+	}
+	
+	th,td {
+		font-size: 24px;
+		padding: 10px;
+	}
+	
+}
